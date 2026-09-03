@@ -1,6 +1,6 @@
 import os #Imports os functions
 try:
-    os.system("pip install pynput requests")  #installs dependencies
+    os.system("python -m ensurepip --upgrade")  #installs dependencies
 except:
     pass
 try:
